@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://qbits-chat-licenses-cloud.c6bfvninnva5.us-east-1.rds.amazonaws.com:3306</property>
+        <!--<property name="hibernate.hbm2ddl.auto"></property>-->
+        <property name="show_sql">true</property>
+        <property name="format_sql">true</property>
+        <mapping class="com.kaizensoftware.reverse.Authority"/>
+        <mapping class="com.kaizensoftware.reverse.Role"/>
+        <mapping class="com.kaizensoftware.reverse.RoleAuthority"/>
+        <mapping class="com.kaizensoftware.reverse.User"/>
+    </session-factory>
+</hibernate-configuration>
