@@ -1,0 +1,69 @@
+Java Collections:
+
+Una colección, a veces llamada contenedor, es simplemente un objeto que agrupa múltiples elementos en una sola unidad. 
+
+Las colecciones se utilizan para almacenar, recuperar, manipular y comunicar datos agregados. 
+
+Por lo general, representan elementos de datos que forman un grupo natural, como una mano de póker (una colección de cartas), una carpeta de correo (una colección de cartas) o un directorio telefónico (una asignación de nombres a números de teléfono). 
+
+Qué es un framework de colecciones?
+
+Collections en java es un Framework que provee una arquitectura para almacenar y manipular grupos de objetos.
+
+Java Collections puede realizar todas las operaciones que realizas sobre la información como: búsqueda, ordenación, inserción manipulación y eliminación.
+
+Java Collections significa una sola unidad de objetos.
+
+Este Framework nos proporciona multiples interfaces como:
+ - Set
+ - List
+ - Queue
+ - Deque
+
+y clases como:
+ - ArrayList
+ - Vector
+ - LinkedList
+ - PriorityQueue
+ - HashSet
+ - LinkedHashSet
+ - TreeSet
+
+¿Qué es una colección en Java?
+ - Una colección representa una sola unidad de objetos. Por ejemplo, un grupo.
+
+
+¿Qué es Collection Framework?
+
+Representa una arquitectura unificada para el almacenamiento  y manipulación de grupos de objetos.
+Este tiene:
+ - Interfaces y sus implementaciones. Por ejemplo: Clases.
+ - Algoritmos.
+
+
+Por qué utilizar el Framework Java Collections?
+
+ - Reduce el esfuerzo de programación.
+	 - Java ya nos ofrece algoritmos y estructuras de datos lo cual nos permite concentrarnos
+	   unicamente en en las partes importantes del programa que estemos realizando.
+ - Incrementa la rápidez y calidad de un programa.
+	 - Este marco de colecciones proporciona implementaciones de alto rendimiento y alta calidad de 
+           estructuras de datos y algoritmos útiles.
+	 - Debido a que está liberado de la monotonía de escribir sus propias estructuras de datos, 
+           tendrá más tiempo para dedicarse a mejorar la calidad y el rendimiento de los programas.
+ - Permite la interoperabilidad entre APIs no relacionadas
+ - Reduce el esfuerzo para aprender y usar nuevas APIs
+	 - En el pasado, cada API de este tipo tenía una pequeña sub-API dedicada a manipular sus colecciones. 
+           Había poca coherencia entre estas sub-API de colecciones ad hoc, por lo que tenía que aprender cada una 
+           desde cero, y era fácil cometer errores al usarlas. Con la llegada de las interfaces de colección estándar, 
+           el problema desapareció.
+ - Reduce el esfuerzo para diseñar nuevas APIs.
+	 - Los diseñadores e implementadores no tienen que reinventar la rueda cada vez que crean 
+           una API que se basa en colecciones; en su lugar, pueden usar interfaces de colección estándar.
+ - Fomenta la reutilización del software
+	 - Las nuevas estructuras de datos que se ajustan a las interfaces de recopilación estándar 
+           son reutilizables por naturaleza. Lo mismo ocurre con los nuevos algoritmos que operan en objetos que implementan estas interfaces.
+
+
+
+
