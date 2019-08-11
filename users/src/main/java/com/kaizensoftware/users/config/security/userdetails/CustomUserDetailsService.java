@@ -11,8 +11,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Optional;
 
-@Service("userDetailsService")
 @Transactional
+@Service("userDetailsService")
 public class CustomUserDetailsService implements UserDetailsService {
 
     @Autowired
